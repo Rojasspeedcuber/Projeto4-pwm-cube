@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "FridrichTrainer",
+    "slug": "FridrichTrainer",
+    "version": "1.2.1",
+    "orientation": "portrait",
+    "splash": {
+      "image": "src/assets/images/FridrichTrainerlogo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+
+    "android": {
+      "package": "com.fridrichTrainer.fridrichTrainer"
+    }
+  }
+}

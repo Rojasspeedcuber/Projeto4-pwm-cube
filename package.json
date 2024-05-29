@@ -1,0 +1,65 @@
+{
+  "name": "fridrich_trainer",
+  "version": "1.3.0",
+  "description": "Fridrich Trainer is an app to practice the most famous method to solve the Rubik's Cube. To improve since the F2L to the OLL and the PLL. All in one simple and intuitive application. Fridrich Trainer is also an open-source project so is possible anyone help since reporting bugs, writing code, documentation, giving ideas or just checking the homepage.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Darguima/FridrichTrainer.git"
+  },
+  "homepage": "https://github.com/Darguima/FridrichTrainer#readme",
+  "author": "Darguima",
+  "license": "MIT",
+  "keywords": [
+    "Rubik's Cube",
+    "CFOP",
+    "CFOP Trainer",
+    "Fridrich",
+    "Fridrich trainer"
+  ],
+  "bugs": {
+    "url": "https://github.com/Darguima/FridrichTrainer/issues"
+  },
+  "main": "node_modules/expo/AppEntry.js",
+  "scripts": {
+    "start": "expo start",
+    "android": "expo start --android",
+    "ios": "expo start --ios",
+    "web": "expo start --web",
+    "eject": "expo eject"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^10.2.1",
+    "@react-native-community/async-storage": "^1.12.1",
+    "@react-native-community/masked-view": "0.1.10",
+    "@react-navigation/native": "^5.7.6",
+    "@react-navigation/stack": "^5.9.3",
+    "expo": "~39.0.2",
+    "expo-status-bar": "~1.0.2",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
+    "react-native": "https://github.com/expo/react-native/archive/sdk-39.0.3.tar.gz",
+    "react-native-draggable-flatlist": "^2.5.0",
+    "react-native-gesture-handler": "~1.7.0",
+    "react-native-reanimated": "~1.13.0",
+    "react-native-safe-area-context": "3.1.4",
+    "react-native-screens": "~2.10.1",
+    "react-native-svg": "^12.1.0",
+    "react-native-web": "~0.13.12"
+  },
+  "devDependencies": {
+    "@types/react": "~16.9.35",
+    "@types/react-dom": "~16.9.8",
+    "@types/react-native": "~0.63.2",
+    "@typescript-eslint/eslint-plugin": "^4.4.1",
+    "@typescript-eslint/parser": "^4.4.1",
+    "eslint": "^7.11.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.21.4",
+    "eslint-plugin-standard": "^4.0.1",
+    "typescript": "~3.9.5"
+  },
+  "private": true
+}
