@@ -4,8 +4,6 @@
   "repository": {
     "type": "git"
   },
-  "author": "Darguima",
-  "license": "MIT",
   "keywords": [
     "Rubik's Cube",
     "CFOP",
